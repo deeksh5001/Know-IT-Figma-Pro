@@ -1,0 +1,125 @@
+.whole2{
+  background:url('https://c4.wallpaperflare.com/wallpaper/943/325/118/cyan-purple-triangle-symmetry-wallpaper-preview.jpg');
+  background-size: cover;
+  width:100%;
+}
+.whole3{
+  background:url('https://img.freepik.com/premium-vector/geometric-polygon-background-diamond-wallpaper-elegant-pattern-soft-color_206846-997.jpg?w=2000');
+  background-size: cover;
+  width:100%;
+}
+.container1 {
+  width:99%;
+  margin: auto;
+  display: flex;
+  justify-content:space-evenly;
+}
+.card1 {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition:transform 0.6s;
+}
+.card1:hover {
+  box-shadow: 5px 5px 5px 5px rgb(9, 1, 1);
+  transform: scale(1.05);
+  /*transform: ;*/
+}
+.card1 img {
+  height:180px;
+  width: 380px;
+  border-radius: 10px;
+}
+.x {  
+background-color: rgb(195, 82, 174);
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+}
+@media screen and (max-width:450px) {
+  .container1 {
+    width:99%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  .card1 {
+    width:99%;
+    margin:20px;
+  }
+  .card1 img {
+    width:90%;
+  }
+  .whole2 {
+    width:100%;
+  }
+  .nav-container {
+    width:100%;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  h2,h3,h4,h5,h6 ,.h55{
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) 
+{
+  .container1 {
+    width:99%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  .card1 {
+    width:99%;
+    margin:20px;
+  }
+  .card1 img {
+      width:90%;
+    }
+  .body2 {
+    width:100%;
+  }
+  .nav-container {
+    width:100%;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  h2,h3,h4,h5,h6,.h55 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container1 {
+    width:99%;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .card1 {
+    width:60%;
+    margin:20px;
+  }
+  .card img {
+    width:50%;
+  }
+  .body2 {
+    width:100%;
+  }
+  .nav-container {
+    width:100%;
+  }
+  nav ul li {
+    font-size: 18px;
+  }
+  h2,h3,h4,h5,h6 ,.h55{
+    font-size: 27px;
+    text-align: center;
+  }
+  
+}
